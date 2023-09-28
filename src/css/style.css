@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,500;6..12,800&display=swap');
+@import url(conf.css);
+@import url(header.css);
+
+body{
+    font-family: "Nunito Sans", sans-serif;
+
+}
+
+#background{
+    background-image: url(../assets/home14-bg3.png);
+    background-position: 0px 45px;
+    background-repeat: no-repeat;
+    background-color: var(--cor-fundo);
+    padding:0 10rem;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+
+    height: 50rem;
+}
+
+.info-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 30rem;
+    width: 50vw;
+}
+
+.info-text > span, p{
+    color: var(--text-secundary-color);
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+.info-text > h1{
+    font-size: 7rem;
+    font-weight: 800;
+    color: var(--text-primary-color);
+    text-shadow: 5px 2px 4px rgba(0,0,0,0.68);
+}
+
+.logo-img{
+    position: relative;
+    top: 100px;
+    left: 50px;
+    width: 50vw;
+}
+
+.wp-button{
+    display: flex;
+    flex-direction: column;
+}
+
+#whatsapp{
+    width: 35rem;
+    height: 5.5rem;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 5px 2px 4px rgba(0,0,0,0.68);
+    background-color: var(--text-primary-color);
+}
+
+#whatsapp:hover{
+    cursor: pointer;
+    transition: 0.6s;
+    transform: scale(1.1);
+}
+
+.wp-button > img{
+    margin-top: 5px;
+    width: 18rem;
+    height: 4.9rem;
+}

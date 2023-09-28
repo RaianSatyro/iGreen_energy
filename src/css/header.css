@@ -1,0 +1,31 @@
+#imagem-logo{
+    height: 6rem;
+}
+
+#menu{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem;
+    padding-bottom: 10rem;
+}
+
+#menu > ul{
+    width: 35vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.itens-menu{
+    color: var(--text-secundary-color);
+    font-size: 2rem;
+    font-weight: 500;
+
+}
+
+.itens-menu:hover{
+    cursor: pointer;
+    color: var(--text-primary-color);
+    transition: 0.5s;
+    transform: scale(1.2);
+}
