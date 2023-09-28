@@ -20,7 +20,7 @@ body{
     display: flex;
     justify-content: space-between;
 
-    height: 50rem;
+    height: 45rem;
 }
 
 .info-text{
@@ -62,8 +62,11 @@ body{
     height: 5.5rem;
     border-radius: 50px;
     border: none;
-    box-shadow: 5px 2px 4px rgba(0,0,0,0.68);
+    box-shadow: 4px 2px 4px rgba(0, 0, 0, 0.336);
     background-color: var(--text-primary-color);
+
+    color: var(--text-alternative-color);
+    font-weight: 700;
 }
 
 #whatsapp:hover{
@@ -76,4 +79,45 @@ body{
     margin-top: 5px;
     width: 18rem;
     height: 4.9rem;
+}
+
+.infos_video {
+    display: flex;
+    gap: 5.5rem;
+    height: 45rem;
+    align-items: center;
+}
+
+.video-seja-um-licenciado > iframe{
+    border-radius: 15px;
+}
+
+.texto-seja-um-licencido{
+    color: var(--text-secundary-color);
+
+}
+
+.texto-seja-um-licencido > span:nth-child(1){
+    font-size: 1.7rem;
+    font-weight: 600;
+    
+}
+
+.texto-seja-um-licencido > h2 {
+    font-size: 3rem;
+    line-height: 4rem;
+    margin: 1.8rem  0 ;
+}
+
+.texto-amarelo{
+    color: var(--text-destaque);
+}
+
+.texto-seja-um-licencido > p:last-child{
+    margin: 1.8rem 0 0 0 ;
+    font-size: 1.55rem;
+}
+
+#vantagens{
+    height: 50rem;
 }

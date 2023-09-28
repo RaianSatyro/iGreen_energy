@@ -9,9 +9,10 @@
 :root{
     font-size: 62.5%;
 
-    --cor-fundo :#086004;
+    --cor-fundo :#094e06;
     --text-primary-color: #1fd119;
     --text-secundary-color: #fff;
     --text-alternative-color:#032101;
+    --text-destaque: #c8ff00 ;
 }
 
