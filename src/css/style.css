@@ -119,5 +119,41 @@ body{
 }
 
 #vantagens{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     height: 50rem;
+}
+
+.second-tittle{
+    margin: 5rem;
+    text-align: center;
+}
+
+.second-tittle > h2 {
+    color: var(--cor-fundo);
+    font-weight: 500;   
+    font-size: 3rem;
+}
+
+.second-tittle > h2 > span {
+    font-weight: 700;
+    color: var(--cor-fundo);
+}
+
+.info-vantagens{
+    display: flex;
+}
+
+.list-vantagens{
+    max-width: 40vw;
+    border: red solid 1px;
+}
+
+.list-vantagens h2{
+    font-size: 2rem;
+}
+
+.list-vantagens p{
+    color:black
 }
